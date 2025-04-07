@@ -90,7 +90,7 @@
       });
   </script>
 </body>
-</html
+
 <style>
     .whatsapp-button {
         position: fixed;
