@@ -105,5 +105,5 @@
 </style>
 
 <a href="https://wa.me/6287748842242" target="_blank" class="whatsapp-button">
-    <img src="https://www.prakardus.com/wp-content/uploads/2021/06/Tombol-wa-promo.gif" alt="WhatsApp" width="50" height="50">
+    <img src="https://www.prakardus.com/wp-content/uploads/2021/06/Tombol-wa-promo.gif" alt="WhatsApp" width="85" height="55">
 </a>
