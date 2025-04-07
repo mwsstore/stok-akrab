@@ -53,6 +53,7 @@
         <th>Nama</th>
         <th>Stok</th>
         <th>Harga</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody id="stok-body">
@@ -60,7 +61,6 @@
   </table>
   <div class="container">
     </div>
-  </div>
   <script>
     const apiUrl = 'https://sheetdb.io/api/v1/ugr3n28l5w7p9';
     const stokTable = document.getElementById('stok-table');
@@ -73,12 +73,15 @@
           const namaCell = document.createElement('td');
           const stokCell = document.createElement('td');
           const hargaCell = document.createElement('td');
+          const statusCell = document.createElement('td');
           namaCell.innerHTML = item.nama.replace(/\n/g, '<br>');
           stokCell.textContent = item.stok;
           hargaCell.textContent = item.harga;
+          statusCell.textContent = item.status;
           row.appendChild(namaCell);
           row.appendChild(stokCell);
           row.appendChild(hargaCell);
+          row.appendChild(statusCell);
           stokBody.appendChild(row);
         });
       })
