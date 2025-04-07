@@ -1,7 +1,6 @@
 
 <html>
 <head>
-  <title>Cek Stok</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -58,47 +57,9 @@
     <tbody id="stok-body">
     </tbody>
   </table>
- 
-<html>
-<head>
-  <title>Catatan</title>
-  <style>
-    .container {
-      display: flex;
-      justify-content: space-between;
-    }
-  </style>
-</head>
-<body>
   <div class="container">
-    <div style="text-align: left;">
-      <h2>Akrab Jumbo</h2>
-      <p>Area 1: 45 GB</p>
-      <p>Area 2: 50 GB</p>
-      <p>Area 3: 63 GB</p>
-      <p>Area 4: 103 GB</p>
-      <p>Rp 65,000</p>
-    </div>
-    <div style="text-align: center;">
-      <h2>Akrab Super</h2>
-      <p>Area 1: 65 GB</p>
-      <p>Area 2: 70 GB</p>
-      <p>Area 3: 83 GB</p>
-      <p>Area 4: 123 GB</p>
-      <p>Rp 69,000</p>
-    </div>
-    <div style="text-align: right;">
-      <h2>Paket Lain</h2>
-      <p>Area 1: 85 GB</p>
-      <p>Area 2: 90 GB</p>
-      <p>Area 3: 103 GB</p>
-      <p>Area 4: 143 GB</p>
-      <p>Rp 85,000</p>
     </div>
   </div>
-</body>
-</html>
-
   <script>
     const apiUrl = 'https://sheetdb.io/api/v1/ugr3n28l5w7p9';
     const stokTable = document.getElementById('stok-table');
@@ -110,7 +71,7 @@
           const row = document.createElement('tr');
           const namaCell = document.createElement('td');
           const stokCell = document.createElement('td');
-          namaCell.textContent = item.nama;
+          namaCell.innerHTML = item.nama.replace(/\n/g, '<br>');
           stokCell.textContent = item.stok;
           row.appendChild(namaCell);
           row.appendChild(stokCell);
