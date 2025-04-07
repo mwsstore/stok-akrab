@@ -58,7 +58,6 @@
   </table>
   <div class="container">
     </div>
-  </div>
   <script>
     const apiUrl = 'https://sheetdb.io/api/v1/ugr3n28l5w7p9';
     const stokTable = document.getElementById('stok-table');
