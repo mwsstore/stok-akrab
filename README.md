@@ -7,7 +7,7 @@
     }
     #stok-table {
       border-collapse: collapse;
-      width: 50%;
+      width: 90%;
       margin: 40px auto;
       background-color: #c6efce;
       border: 1px solid #3e8e41;
