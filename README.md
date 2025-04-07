@@ -91,3 +91,7 @@
   </script>
 </body>
 </html>
+
+<a href="https://wa.me/6287748842242" target="_blank" class="whatsapp-button">
+    <img src="https://i.ibb.co.com/8Lz5rRsD/images-58.jpg" alt="WhatsApp" width="50" height="50">
+</a>
