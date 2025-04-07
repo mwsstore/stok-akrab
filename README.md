@@ -1,3 +1,25 @@
+<style>
+  #time_is_link, #Indonesia_z41c {
+    color: #0000ff; 
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content; 
+    font-size: 36px; 
+    border: 2px solid #0000ff; 
+    padding: 10px; 
+    border-radius: 10px; 
+  }
+</style>
+
+<div style="text-align: center;">
+  <a href="https://time.is/Indonesia" id="time_is_link" rel="nofollow"></a>
+  <span id="Indonesia_z41c"></span>
+  <script src="//widget.time.is/t.js"></script>
+  <script>
+    time_is_widget.init({Indonesia_z41c:{}});
+  </script>
+</div>
 
 <html>
 <head>
