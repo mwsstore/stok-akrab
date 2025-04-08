@@ -75,7 +75,6 @@
         <th>Nama</th>
         <th>Stok</th>
         <th>Harga</th>
-        <th>Status</th>
       </tr>
     </thead>
     <tbody id="stok-body">
